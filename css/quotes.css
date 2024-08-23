@@ -1,0 +1,16 @@
+.quotes {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.quotes h1{
+    color: rgb(61, 59, 59);
+    font-size: 26px;
+}
+
+.quotes p{
+    color: #68686a;
+    margin-top: 5px;
+}
