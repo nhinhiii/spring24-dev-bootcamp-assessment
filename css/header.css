@@ -47,3 +47,41 @@ nav {
 .links ul li:hover::after {
     width: 100%;
 }
+
+nav .display{
+    display: none;
+}
+
+@media (max-width: 750px) {
+    .links ul li {
+        display: block;
+    }
+
+    .links {
+        position: fixed;;
+        background: #F05A7E;
+        height: 100vh;
+        width: 150px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 100;
+        transition: 0.5s ease;
+    }
+
+    nav .display{
+        display: block;
+        color: #ffffff;
+        margin: 10px;
+        height: 25px;
+        cursor: pointer;
+    }
+
+    nav .close{
+        margin-top: 20px;
+    }
+
+    .links ul {
+        padding: 30px;
+    }
+}

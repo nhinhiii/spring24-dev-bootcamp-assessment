@@ -3,10 +3,10 @@ document.getElementById('year').textContent = year;
 
 var navLinks = document.getElementById("navLinks");
 
-function open(){
+function openNav() {
     navLinks.style.right = "0";
 }
 
-function close(){
+function closeNav() {
     navLinks.style.right = "-200px";
 }
