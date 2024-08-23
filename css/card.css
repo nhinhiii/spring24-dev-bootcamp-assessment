@@ -86,3 +86,46 @@ span {
     position: relative;
     cursor: pointer;
 }
+
+@media (max-width: 700px) {
+    .info {
+        position: static;
+        margin-left: 0;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .greeting {
+        font-size: 46px; 
+        text-align: center;
+    }
+
+    .card {
+        display: block; 
+        width: 100%; 
+        margin: 20px auto; 
+        padding: 15px;
+        left: 0; 
+    }
+
+    .card img {
+        width: 100%; 
+        height: auto; 
+        margin: 0 auto 20px; 
+    }
+
+    .description {
+        text-align: center; 
+        margin-left: 0; 
+    }
+
+    .description h3 {
+        font-size: 24px; 
+    }
+
+    .description p {
+        margin-top: 10px; 
+        font-size: 16px; 
+    }
+}
