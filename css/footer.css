@@ -1,0 +1,37 @@
+.footer {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.footer h4{
+    color: #F05A7E;
+    margin-top: 20px;
+    margin-bottom:20px;
+    font-weight: 600;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons a img{
+    color: #F05A7E;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 16px;
+    width: 25px;
+}
+
+.icon a img .fb{
+    height: 100px;
+}
+
+#year{
+    text-decoration: none;
+    color: rgb(143, 141, 141);
+    font-size: 14px;
+}
