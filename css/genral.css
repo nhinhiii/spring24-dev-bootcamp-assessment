@@ -3,3 +3,7 @@
     padding: 0;
     font-family: 'Moderustic', 'Arial';
 }
+
+body {
+    overflow-x: hidden;
+}
