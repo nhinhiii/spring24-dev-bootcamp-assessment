@@ -1,0 +1,62 @@
+.hobbies{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.hobbies h1{
+    margin-bottom: 20px;
+}
+
+.wrap-hobbies{
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+}
+
+.favorite{
+    flex-basis: 30%;
+    border-radius: 10px;
+    margin-bottom: 60px;
+    position: relative;
+    overflow: hidden;
+}
+
+.favorite img {
+    width: 100%;
+    display: block;
+}
+
+.text {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.text:hover{
+    background: rgba(249, 123, 123, 0.7);
+}
+
+.text h3{
+    position: absolute;
+    font-weight: 600;
+    color: #fff;
+    font-size: 24px;
+    bottom: 0;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.text:hover h3{
+    bottom: 48%;
+    opacity: 1;
+}

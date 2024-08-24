@@ -3,7 +3,6 @@
     margin: auto;
     text-align: center;
     padding-top: 100px;
-    padding-bottom: 100px;
 }
 
 .quotes h1{
@@ -14,4 +13,5 @@
 .quotes p{
     color: #68686a;
     margin-top: 5px;
+    margin-bottom: 60px;
 }
