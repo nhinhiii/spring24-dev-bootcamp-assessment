@@ -1,8 +1,97 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/genral.css">
+    <link rel="stylesheet" href="css/card.css">
+    <link rel="stylesheet" href="css/quotes.css">
+    <link rel="stylesheet" href="css/hobbies.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><img src="images/bog.png"></a>
+            <div class= "links" id="navLinks">
+                <img src="images/close.svg" class="display close" onclick="closeNav()">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <img src="images/menu.svg" class="display" onclick="openNav()">
+        </nav>
 
-<html>
-    <head>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-<!-- Your HTML Here -->
+        <div class="info">
+            <h1 class="greeting"> HI THERE!! </h1>
+            <div class="card">
+                <div class="description">
+                    <h3> Nhi Yen Nguyen </h3>
+                    <p> <span>Country:</span> Vietnam </p>
+                    <p> <span>Major:</span> Computer Science </p>
+                    <p> <span>Threads:</span> People && Intelligent </p>
+                    <p> I am passionate about using technology to improve lives. <br>
+                        My dream is to develop a healthcare web app that enables doctors to keep track on their patients, and
+                        enhancing care and outcomes. Additionally, I aim to build a supportive online community for individuals with autism, 
+                        fostering connection, understanding, and shared experiences.
+                    </p>
+                </div>
+                <img src="images/profile.jpg">
+            </div> 
+        </div>
+    </header>
+
+    <section class="quotes">
+        <h1> - Fake it until you make it -</h1>
+        <p> Just try and you will love it later!! </p>
+        <hr class="shorten">
+    </section>
+
+    
+
+    <section class="hobbies"> 
+        <h1> My hobbies </h1>
+        <div class="wrap-hobbies">
+            <div class="favorite">
+                <img src="images/hiking.jpg" alt ="Hiking">
+                <div class="text">
+                    <h3> HIKING </h3>
+                </div>
+            </div> 
+            <div class="favorite">
+                <img src="images/singing.jpg" alt ="Hiking">
+                <div class="text">
+                    <h3> SINGING </h3>
+                </div>
+            </div>
+            <div class="favorite">
+                <img src="images/volunteer.jpg" alt ="Hiking">
+                <div class="text">
+                    <h3> VOLUNTEER </h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr> 
+
+    <section class="footer">
+        <h4> Nhi Yen Nguyen </h4>
+        <div class="icons">
+            <a href="https://www.facebook.com/nhi.nguyenyen.3572846/" class="fb"><img src="images/facebook.svg"></a>
+            <a href="https://www.instagram.com/nhiiyennguyen/"><img src="images/instagram.svg"></a>
+            <a href="https://www.linkedin.com/in/nhi-nguyen-55084923b/"><img src="images/linkedin.svg"></a>
+        </div>
+        <p> &copy <span id="year"></span></p>
+    </section>
+
+    <script src="javaScript/home.js"></script>
+</body>
 </html>
